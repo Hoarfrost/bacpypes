@@ -243,7 +243,7 @@ def main():
         # make a random value object
         ravo = RandomAnalogValueObject(
             objectIdentifier=('analogValue', 1),
-            objectName='Random1' % (device_instance,),
+            objectName='Random %d' % (device_instance,),
             )
         _log.debug("    - ravo1: %r", ravo)
 
